@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beast Masters</title>
+    <link rel="shortcut icon" href="./Images/beastMastersIcon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <header><h1>Beast Masters</h1></header>
+        <h4 id="subheading">A cyber-pet game by Jay, Jake, Dilan, John-Paul, Rukayat and Elias</h4>
+    </div>
+    <div id="main">
+        <main>
+            <div id="startGame">
+                <button id="startGameBtn">Start Game</button>
+            </div>
+            <div id="statBtns">
+                <button id="feed">Feed</button>
+                <button id="sleep">Sleep</button>
+                <button id="drink">Drink</button>
+                <button id="howl">Howl</button>
+                <button id="fish">Fish</button>
+                <button id="hunt">Hunt</button>
+                <button id="reset">Restart Game</button>
+            </div>
+            <div id="beastSelection">
+                <button id="polarBearBtn"><img src="./Images/polarBear.png" alt="Polar Bear"></button>
+                <button id="snowLeopardBtn"><img src="./Images/snowLeopard.png" alt="SnowLeopard"></button>
+                <button id="wolfBtn"><img src="./Images/arcticWolf.png" alt="Wolf"></button>
+            </div>
+            <div id="statBars">
+                <div class="stats">
+                    <progress id="health" class="0" value="100" min="0" max="100" low="30" high="60" optimum="100"></progress>
+                    <h4>Health</h4>
+                </div>
+                <div class="stats">
+                    <progress id="hunger" class="0" value="100" min="0" max="100" low="30" high="60" optimum="100"></progress>
+                    <h4>Hunger</h4>
+                </div>
+                <div class="stats">
+                    <progress id="thirst" class="0" value="100" min="0" max="100" low="30" high="60" optimum="100"></progress>
+                    <h4>Thirst</h4>
+                </div>
+                <div class="stats">
+                    <progress id="tiredness" class="0" value="100" min="0" max="100" low="30" high="60" optimum="100"></progress>
+                    <h4>Tiredness</h4>
+                </div>
+            </div>
+            <div>
+                <img src="./Images/arcticWolf.png" alt="arctic wolf" class="image" id="wolfImg">
+                <img src="./Images/polarBear.png" alt="polar bear" class="image" id="polarBearImg">
+                <img src="./Images/snowLeopard.png" alt="snow leopard" class="image" id="snowLeopardImg">
+            </div>
+        </main>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
